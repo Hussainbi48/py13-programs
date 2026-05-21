@@ -1,0 +1,5 @@
+def display()
+    print(f"name:{n}")
+    print(f"age:{a}")
+    print(f"branch:{b}")
+    display("hussu",23 ," cse")
