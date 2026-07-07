@@ -44,7 +44,17 @@ def add(a,b):
     print(a+b)
 add(5,9)
 def bio(first_name,last_name,age):
-    print(f"my name is{first_name}{last_name} i am{age} years old")
+    print(f"my name is {first_name} {last_name} i  {age} years old")
 bio("sk","hussainbi",21)
+def intro(name,city,hobby):
+    print(f"my name is {name}. from {city} my hobbies are {hobby}")
+intro("hussainbi", "andhra","learning new topics")
+def substract(a,b):
+    return a-b
+print(subtract(10,3))
+print(subtract(3,10))
+def bio(fairst_name, last_name, age):
+    print(f"{fairst_name} {last_name} is {age} years old. ")
+bio("sk", "hussainbi" , 21)
 
 
